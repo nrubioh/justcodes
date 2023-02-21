@@ -20,11 +20,19 @@ history
 rm +file to delete specific file (no directory)
 code visualstudiocode
 
+(-- meaning words no letter)
+
 git init to create the repository
 git status to check the status
 git add +file 
 git rm +file 
 git rm --cached +file (now it's in memory ram)
+git commit -m"to put the file in the repository"
+git config --list (appear names emails etc)
+git config --global user.name "nrubioh"
+git config --global user.email "nrubiohoskins@gmail.com"
+
+
 
 
 
