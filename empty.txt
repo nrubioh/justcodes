@@ -1,0 +1,30 @@
+ls list
+ls -al (all files in order)
+ls -l (just list)
+ls -a (all files without list)
+
+cd to change directory
+/ root 
+~ home
+/c disk
+cd .. (to back)
+cd tab letter to fill
+
+pwd current working directory
+ctrl+l = clear 
+
+mkdir to make directory (no file)
+cat +file to show the content in specific file
+history
+!number to find the specific old code
+rm +file to delete specific file (no directory)
+code visualstudiocode
+
+git init to create the repository
+git status to check the status
+git add +file 
+git rm +file 
+git rm --cached +file (now it's in memory ram)
+
+
+
