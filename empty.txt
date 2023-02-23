@@ -54,9 +54,10 @@ class 23/02/2023
 TO SEND
 	git add to track and pass the files to staging area
 	git commit -m to pass to repository area
+		git commit -am "to tracked and do commit in the same time"
 	git push to send at remote repository
 TO BRING BACK 
 	git fetch to pull the files from remote repository to local repository
 	git merge to fusion files from local repository to pc
-	git pull last two in the same time.
+		git pull last two in the same time.
 
