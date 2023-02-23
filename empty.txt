@@ -51,5 +51,5 @@ git reset --soft to delete every git's history and record, but saving the 	chang
 git reset --head to take out files of staging area (tracked -> untracked)
 git reset --hard to delete whole
 
-we are gonna talk about the changes now.
+we are NOT gonna talk about the changes now.
 
