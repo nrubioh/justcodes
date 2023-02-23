@@ -64,3 +64,7 @@ TO BRING BACK
 	git merge to fusion files from local repository to pc
 		git pull last two in the same time.
 
+git branch is to show the actuals branchs
+git branch +name
+
+
