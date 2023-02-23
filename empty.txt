@@ -1,17 +1,18 @@
+$ cat empty.txt
 ls list
 ls -al (all files in order)
 ls -l (just list)
 ls -a (all files without list)
 
 cd to change directory
-/ root 
+/ root
 ~ home
 /c disk
 cd .. (to back)
 cd tab letter to fill
 
 pwd current working directory
-ctrl+l = clear 
+ctrl+l = clear
 
 mkdir to make directory (no file)
 cat +file to show the content in specific file
@@ -24,15 +25,31 @@ code visualstudiocode
 
 git init to create the repository
 git status to check the status
-git add +file 
-git rm +file 
-git rm --cached +file (now it's in memory ram)
-git commit -m"to put the file in the repository"
+BEFORE staging area the file it was untracked status in working area
+git add +file (to pass living in staging area, now is tracked)
+
+git commit -m"from staging area to repository"
 git config --list (appear names emails etc)
 git config --global user.name "nrubioh"
 git config --global user.email "nrubiohoskins@gmail.com"
 
+git log +file to see the file history, how many versions appear
+git show +file to see the difference between versions
+git diff 1asdasd 3edasdas = to show the difference between 2 versions
 
+git rm is for delete gitFiles without delete its version histories system.
+	git rm --cached +file (to come back working area from staging area)
+		to delete files of local repository and staging area.
+		the files will go to untracked state.	
+	git rm --force
+		to delete files in git and hardisk. (git always save everything,
+		therefore we could access but we need advanced commands).
 
+git checkout is for to watch and go
 
+git reset --soft to delete every git's history and record, but saving the 	changes in staging area.
+git reset --head to take out files of staging area (tracked -> untracked)
+git reset --hard to delete whole
+
+we are gonna talk about the changes now.
 
