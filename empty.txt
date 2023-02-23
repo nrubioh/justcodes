@@ -24,15 +24,18 @@ code visualstudiocode
 
 git init to create the repository
 git status to check the status
-BEFORE staging area the file it was untracked status in working area
-git add +file (to pass living in staging area, now is tracked)
 
-git commit -m"from staging area to repository"
+BEFORE staging area the file it was untracked status in working area
+	git add +file (to pass living in staging area, now is tracked)
+	git commit -m "from staging area to repository"
+	git commit -am "add + commit"
+
 git config --list (appear names emails etc)
 git config --global user.name "nrubioh"
 git config --global user.email "nrubiohoskins@gmail.com"
 
 git log +file to see the file history, how many versions appear
+	git log --stat to see the pixels changed 
 git show +file to see the difference between versions
 git diff 1asdasd 3edasdas = to show the difference between 2 versions
 
