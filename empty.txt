@@ -67,4 +67,7 @@ TO BRING BACK
 git branch is to show the actuals branchs
 git branch +name
 
+git merge the branch end and it will stick on the MasterBranch
+
+
 
