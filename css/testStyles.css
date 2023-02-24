@@ -22,9 +22,6 @@ body{
     padding: 0 0 0 10px;
     font-weight: normal;
     font-size: 40px;
-    flex: auto;
-    text-align: center;
-
 }
 #container h1{
     text-align: center;
