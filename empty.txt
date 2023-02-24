@@ -63,4 +63,3 @@ TO BRING BACK
 	git fetch to pull the files from remote repository to local repository
 	git merge to fusion files from local repository to pc
 		git pull last two in the same time.
-
