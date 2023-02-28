@@ -78,3 +78,18 @@ git remote
 		(merger with github) readme.md now is with us files
 2.git status (all good?)
 3.git push origin master / sending the files.. to github
+
+how to create the public and private key 
+	ssh-keygen -t rsa -b 4096 -C "email@gmail.com"
+		gitPassword
+		(the two key are saving in .ssh)
+	eval $(ssh-agent -s) // to know that pc are working with the key we need to do a evaluation command
+		(laptop respond)
+		Agent pid #### (meaning Agent is working, pid processID, #### the process is running)
+	ssh-add ~/.ssh/id_rsa / you will need to put the password // Adding the key
+	--
+	In github you need to paste the public key SSH
+	--
+	git remote -v to see the url 
+	git remote set-url origingit@github.com:email/repositoryName.git -we need to change the url-
+to coroborate the changes are right just do a pull
