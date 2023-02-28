@@ -93,3 +93,7 @@ how to create the public and private key
 	git remote -v to see the url 
 	git remote set-url origingit@github.com:email/repositoryName.git -we need to change the url-
 to coroborate the changes are right just do a pull
+	git pull - do you want ? yes
+	git pull origin master
+	git commit -am
+	git push origin master
