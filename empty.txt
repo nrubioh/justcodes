@@ -73,6 +73,8 @@ git remote add origin +git url
 git remote 
 	git remote origin; to see the fetch and push
 
-
-
-
+1.git pull origin master --allow-unrealated-histories
+	:wq! to accept
+		(merger with github) readme.md now is with us files
+2.git status (all good?)
+3.git push origin master / sending the files.. to github
