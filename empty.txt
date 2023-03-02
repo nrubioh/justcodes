@@ -97,3 +97,17 @@ to coroborate the changes are right just do a pull
 	git pull origin master
 	git commit -am
 	git push origin master
+
+git show-branch what brands are already exist and its history
+	git show-branch -all more data
+gitk history vision (!console)
+
+to create branch:
+	git branch +name
+to push:
+	git push origin +name	
+
+When you're in others projects the boss will give you the access to enter in git (collaborators)
+	1st you must to copy the git(URL) project HTTPS or SSH	
+	2nd put the command "git clone +url"
+	3rd git pull origin +branch // git push origin +branch

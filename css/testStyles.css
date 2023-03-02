@@ -2,15 +2,19 @@ body{
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
     color:antiquewhite;
-    background-color: black;
+    background-color: #0f0147;
 }
 #container{
     width: 70%;
     padding: 1em;
     border: 4px solid rgb(251, 8, 182);
     margin: auto;
+    background-color: black;
 }
 #top{
+    display: flex; 
+    align-items: center; /* to move inside of the box */
+    text-align: center; /* just text center */
     background: rgba(0, 255, 30, 0.84);
     box-shadow: 0px 2px 20px 0px rgba(3, 170, 23, 0.809);
     color:rgb(112, 36, 139);
@@ -28,4 +32,7 @@ body{
     color:rgb(251, 8, 182);
     padding: 0px 0px 100px 0px;
     font-size: 50px;
+}
+#post h1{
+    text-transform: uppercase;
 }
