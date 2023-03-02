@@ -117,4 +117,4 @@ to delete (tag's steps):
 	1) git tag (too see all)
 	2) git tag -d ####
 	3) git pull origin master
-	4) git push origin :ref/tags/versioNumber
+	4) git push origin :ref/tags/versioNumber.
