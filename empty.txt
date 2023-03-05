@@ -121,7 +121,7 @@ to delete (tag's steps):
 	4) git push origin :ref/tags/versioNumber
 
 to create alias:
-	alias tree="git log --all --graph --decorate --oneline"3
+	alias tree="git log --all --graph --decorate --oneline"
 to show alias list:
 	git config -l | grep alias | sed 's/^alias\.//g'
 to delete specific alias:
